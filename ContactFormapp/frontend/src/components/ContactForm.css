@@ -1,0 +1,63 @@
+/* ContactForm.css */
+
+/* Container */
+div {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Input and Textarea Styles */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4caf50;
+}
+
+/* Button Styles */
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Success Message */
+p {
+  font-size: 18px;
+  color: #4caf50;
+  margin-top: 20px;
+}
